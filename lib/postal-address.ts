@@ -376,6 +376,10 @@ class PostalAddress implements PostalAddressInterface {
       },
     }
 
+    if (!this.allowed.formatForCountry.includes(countryAlpha2)) {
+      this.allowed.formatForCountry.push(countryAlpha2);
+    }
+
     return this
   }
 
