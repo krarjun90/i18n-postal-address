@@ -2,7 +2,10 @@
 .DS_Store
 
 # Build
-dist/
+#dist/
+
+# IDEA
+.idea/
 
 # Logs
 logs
